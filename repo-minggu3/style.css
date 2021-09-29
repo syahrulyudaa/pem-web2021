@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.judul {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 120px;
+    text-align: center;
+    color:blanchedalmond;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.promo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 120px;
+    text-align: center;
+    color:blanchedalmond;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+nav{
+    background-color: darkslategray;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    float: center;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav li a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    background: gray;
+    color: white;
+    border: radius 10px;
+}
+
+.pilih {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.pilih .video video {
+    width: 450px;
+}
+
+.video {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.video a {
+    border: 1px solid green;
+    padding: 10px;
+    color: white;
+    background: green;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
