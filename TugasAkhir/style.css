@@ -1,0 +1,22 @@
+.project {
+    background-color: #070F22;
+    color: #E16AE1;
+}
+
+#home {
+    background-color: #1D273F;
+}
+
+.navbar {
+    background-color: #070F22;
+    height: 5rem;
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.container {
+    color: #E16AE1;
+}
